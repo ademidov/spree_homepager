@@ -1,7 +1,5 @@
-Rails.application.routes.draw do
+Spree::Core::Engine.routes.draw do
   
-  root :controller => "home", :action => "index"
-
   namespace :admin do
     resources :banners do
       collection do
