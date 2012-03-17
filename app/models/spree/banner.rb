@@ -5,5 +5,7 @@ module Spree
     default_scope :order => "position"
 
     scope :visible, where(:visible => true)
+    scope :at_place, lambda {|place| where(:place => place) }
+
   end
 end
