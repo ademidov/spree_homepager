@@ -1,0 +1,16 @@
+---
+  ru:
+    ext_homepager:
+      show_on_homepage: "Показывать на главной"
+    banners: Баннеры
+    banner: Баннер
+    listing_banners: "Список баннеров"
+    position: Позиция
+    tagline: Слоган
+    target_url: URL
+    new_banner: "Новый баннер"
+    editing_banner: "Редактирование баннера"
+    reorder: Порядок
+    reorder_explain: "Перетаскивайте баннеры вверх и вних для изменения порядка отображения"
+    visible: Видимый
+    drag: drag
