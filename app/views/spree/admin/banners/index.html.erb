@@ -28,7 +28,7 @@
     <% @banners.each do |banner|%>
       <tr id="<%= dom_id banner %>" class="<%=cycle('even', 'odd') %>">
         <td><span class="handle"></span></td>
-        <td><%= link_to(image_tag(banner.image.url(:thumb)), banner.image.url(:banner)) %></td>
+        <td><%= link_to(image_tag(banner.image.url(:thumb)), banner.image.url) %></td>
         <td><%=banner.tagline%></td>
         <td><%=banner.target_url%></td>
         <td><%=icon('tick') if banner.visible %></td>
