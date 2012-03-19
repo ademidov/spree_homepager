@@ -1,9 +1,9 @@
 <%= stylesheet_link_tag 'formtastic', 'formtastic_changes' %>
 
 <%= f.inputs do %>
-  <%= f.input :tagline %>
-  <%= f.input :target_url %>
-  <%= f.input :image %>
-  <%= f.input :visible %>
-  <%= f.input :place %>
+  <%= f.input :tagline, :label => t(:tagline) %>
+  <%= f.input :target_url, :label => t(:target_url) %>
+  <%= f.input :image, :label => t(:image) %>
+  <%= f.input :visible, :label => t(:visible) %>
+  <%= f.input :place, :label => t(:place) %>
 <% end %>
