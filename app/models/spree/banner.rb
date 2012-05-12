@@ -1,5 +1,8 @@
 module Spree
   class Banner < ActiveRecord::Base
+    
+    attr_accessible :tagline, :target_url, :visible, :place, :position
+    
     acts_as_list
     has_attached_file :image,
       :styles => {:thumb => "100x100>" },
